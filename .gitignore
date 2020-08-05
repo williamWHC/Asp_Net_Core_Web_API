@@ -1,0 +1,291 @@
+## Ignore os arquivos temporários do Visual Studio, crie resultados e
+## arquivos gerados por complementos populares do Visual Studio.
+
+###################
+# fonte compilada #
+###################
+* .com
+*.classe
+* .dll
+*.Exe
+* .pdb
+* .dll.config
+* .cache
+* .suo
+# Inclua DLLs se estiverem no diretório de pacotes do NuGet
+! / packages / * / lib / *. dll
+# Inclua DLLs se estiverem no diretório CommonReferences
+! * CommonReferences / *. Dll
+####################
+# Material de atualização do VS #
+####################
+_UpgradeReport_Files /
+###############
+# Diretórios #
+###############
+bin /
+obj /
+Resultado dos testes/
+###################
+# Log de publicação na Web #
+###################
+* .Publish.xml
+#############
+# Resharper #
+#############
+/_ReSharper.*
+* .ReSharper. *
+############
+# Pacotes #
+############
+# é melhor descompactar esses arquivos e confirmar a fonte bruta
+# git possui seus próprios métodos de compactação
+* .7z
+* .dmg
+* .gz
+* .iso
+* .jar
+* .rar
+*.alcatrão
+*.fecho eclair
+######################
+# Logs e bancos de dados #
+######################
+*.registro
+* .sqlite
+# Arquivos gerados pelo SO #
+######################
+.DS_Store?
+ehthumbs.db
+Ícone?
+Thumbs.db
+
+
+# Arquivos específicos do usuário
+*.do utilizador
+* .userosscache
+* .sln.docstates
+
+# Arquivos específicos do usuário (MonoDevelop / Xamarin Studio)
+* .userprefs
+
+# Construir resultados
+[Dd] ebug /
+[Dd] ebugPublic /
+[Rr] elease /
+[Rr] eleases /
+x64 /
+x86 /
+Construir/
+bld /
+[Bb] em /
+[Oo] bj /
+
+Diretório de cache / opções do Visual Studo 2015
+.vs /
+
+Resultados do teste # MSTest
+[Tt] est [Rr] esult * /
+[Bb] uild [Ll] og. *
+
+# NUNIT
+* .VisualState.xml
+TestResult.xml
+
+# Construir resultados de um projeto ATL
+[Dd] ebugPS /
+[Rr] eleasePS /
+dlldata.c
+
+# DNX
+project.lock.json
+artefatos /
+
+* _i.c
+* _p.c
+* _i.h
+* .ilk
+* .meta
+* .obj
+* .pch
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+* .svclog
+* .scc
+
+# Arquivos de teste Chutzpah
+_Chutzpah *
+
+# Arquivos de cache do Visual C ++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .cachefile
+
+# Visual Studio Profiler
+* .psess
+* .vsp
+* .vspx
+
+# Área de trabalho local do TFS 2012
+$ tf /
+
+# Kit de ferramentas de automação de orientação
+* .gpState
+
+# ReSharper é um suplemento de codificação .NET
+_ReSharper * /
+*. [Rr] e [Ss] harper
+* .DotSettings.user
+
+# JustCode é um suplemento de codificação .NET
+.JustCode
+
+# TeamCity é um complemento de compilação
+_TeamCity *
+
+# DotCover é uma ferramenta de cobertura de código
+* .dotCover
+
+# NCrunch
+_NCrunch_ *
+. * crunch * .local.xml
+
+# MightyMoose
+*.milímetros.*
+AutoTest.Net/
+
+# Ambiente de trabalho na Web (sass)
+.sass-cache /
+
+# Pasta de saída Installshield
+[Ee] xpress /
+
+# DocProject é um suplemento de gerador de documentação
+DocProject / buildhelp /
+DocProject / Ajuda / *. HxT
+DocProject / Ajuda / *. HxC
+DocProject / Help / *. Hhc
+DocProject / Help / *. Hhk
+DocProject / Help / *. Hhp
+DocProject / Ajuda / Html2
+DocProject / Ajuda / html
+
+# Diretório Click-Once
+publicar/
+
+# Publicar saída da Web
+*. [Pp] ublish.xml
+* .azurePubxml
+# TODO: comente a próxima linha se quiser verificar as configurações de implantação da web 
+# mas as cadeias de conexão do banco de dados (com senhas em potencial) não serão criptografadas
+* .pubxml
+* .publishproj
+
+# Pacotes NuGet
+* .nupkg
+# A pasta packages pode ser ignorada devido à restauração do pacote
+** / pacotes / *
+# exceto build /, que é usado como um destino MSBuild.
+! ** / pacotes / compilação /
+# Descomente, se necessário; no entanto, geralmente será regenerado quando necessário
+#! ** / packages / repositories.config
+
+# Saída de compilação do Windows Azure
+csx /
+* .build.csdef
+
+# Diretório de pacotes de aplicativos da Windows Store
+AppPackages /
+
+# Arquivos de cache do Visual Studio
+# arquivos que terminam em .cache podem ser ignorados
+*. [Cc] dor
+# mas acompanhe os diretórios que terminam em .cache
+! *. [Cc] dor /
+
+# Outras
+ClientBin /
+[Ss] tyle [Cc] op. *
+~ $ *
+* ~
+* .dbmdl
+* .dbproj.schemaview
+* .pfx
+* .publishsettings
+node_modules /
+bower_components /
+orleans.codegen.cs
+
+# Projetos RIA / Silverlight
+Generated_Code /
+
+# Faça backup e relate arquivos da conversão de um arquivo de projeto antigo
+# para uma versão mais recente do Visual Studio. Arquivos de backup não são necessários,
+# porque temos git ;-)
+_UpgradeReport_Files /
+Cópia de segurança*/
+UpgradeLog * .XML
+UpgradeLog * .htm
+
+# Arquivos do SQL Server
+* .mdf
+* .ldf
+
+# Projetos de Business Intelligence
+* .rdl.data
+* .bim.layout
+* .bim _ *. configurações
+
+# Microsoft Fakes
+FakesAssemblies /
+
+# Node.js Ferramentas para Visual Studio
+.ntvs_analysis.dat
+
+# Registro de criação do Visual Studio 6
+* .plg
+
+# Arquivo de opções do espaço de trabalho do Visual Studio 6
+*.optar
+.vs/AspNetCoreWebAPI/v15/.suo
+.vs/AspNetCoreWebAPI/DesignTimeBuild/.dtbcache
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+MimicAPI/bin/Debug/netcoreapp2.1/MimicAPI.dll
+.vs/config/applicationhost.config
+MimicAPI/bin/Debug/netcoreapp2.1/MimicAPI.pdb
+MimicAPI/bin/Debug/netcoreapp2.1/MimicAPI.runtimeconfig.dev.json
+MimicAPI/bin/Debug/netcoreapp2.1/MimicAPI.runtimeconfig.json
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.AssemblyInfo.cs
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.AssemblyInfoInputs.cache
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.assets.cache
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.csproj.CoreCompileInputs.cache
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.csproj.FileListAbsolute.txt
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.csprojAssemblyReference.cache
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.dll
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.pdb
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.RazorAssemblyInfo.cache
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.RazorAssemblyInfo.cs
+MimicAPI/obj/Debug/netcoreapp2.1/MimicAPI.RazorTargetAssemblyInfo.cache
+MimicAPI/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+MimicAPI/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+MimicAPI/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+MimicAPI/obj/MimicAPI.csproj.nuget.g.props
+MimicAPI/obj/MimicAPI.csproj.nuget.g.targets
+MimicAPI/obj/project.assets.json
